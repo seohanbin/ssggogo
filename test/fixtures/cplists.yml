@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cpname: MyString
+  cpdate: MyString
+  cpcondition: MyString
+  cpamount: MyString
+  cplink: MyString
+
+two:
+  cpname: MyString
+  cpdate: MyString
+  cpcondition: MyString
+  cpamount: MyString
+  cplink: MyString

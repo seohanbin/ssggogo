@@ -1,0 +1,26 @@
+<h1>resulttable</h1>
+
+<table style="width:100%">
+    
+  <tr>
+    <th>쿠폰명</th>
+    <th>사용기간</th> 
+    <th>사용조건</th>
+    <th>발급수량</th>
+    <th>링크</th>
+  </tr>
+  
+  <% @outputlistsum.each do |x| %>
+  <tr>
+    <td><%= x.cpname %></td>
+    <td><%= x.cpdate %></td>
+    <td><%= x.cpcondition %></td>
+    <td><%= x.cpamount %></td>
+    <td><a href="<%= x.cplink %>"><%= x.cplink %></a></td>
+  </tr>
+  <% end %>
+
+
+</table>
+
+<h1><a href='/'>back</a></h1>
