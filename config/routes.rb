@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   root :to => "home#numbtype"
  
+ 
  get ":controller(/:action(/:id))"
  post ":controller(/:action(/:id))"
 
